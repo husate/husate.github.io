@@ -1,6 +1,6 @@
 let button = document.querySelector('button');
 
-button.onClick = function () {
-  button.backgroundColor = 'red';
+button.onclick = function () {
+  button.style.backgroundColor = 'red';
   button.textContent = 'You clicked me!';
 }
