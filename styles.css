@@ -1,7 +1,7 @@
 button {
   background-color: green;
   border-radius: 3px;
-  border-type: solid;
+  border-style: solid;
   width: 100px;
   height: 100px;
 }
