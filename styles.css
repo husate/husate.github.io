@@ -1,6 +1,7 @@
 button {
   background-color: green;
   border-radius: 3px;
+  border-type: solid;
 }
 
 header {
