@@ -1,4 +1,4 @@
-let button = document.querySelector('button');
+const button = document.querySelector('button');
 let clicked = false;
 button.onclick = function () {
   if (clicked == false){
