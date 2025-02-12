@@ -1,5 +1,6 @@
 const button = document.querySelector('button');
-const askNameButton = document.querySelector('#ask button');
+const askDiv = document.querySelector('#ask');
+const askNameButton = askDiv.querySelector('button');
 const header = document.querySelector('#header1');
 let clicked = false;
 button.onclick = function () {
