@@ -15,7 +15,7 @@ button.onclick = function () {
   }
 }
 
-askNameButton.onClick = function () {
+askNameButton.onclick = function () {
   let name = prompt("What is your name?");
   header.textContent = `Hello, ${name}!`;
 }
