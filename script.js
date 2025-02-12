@@ -1,4 +1,5 @@
 const button = document.querySelector('button');
+const askNameButton = document.querySelector('#ask button');
 let clicked = false;
 button.onclick = function () {
   if (clicked == false){
