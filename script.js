@@ -17,7 +17,7 @@ button.onclick = function () {
 }
 
 askNameButton.addEventListener("mouseout", () => {
-  askNameButton.style.backgroundColor = "F7D9C4";
+  askNameButton.style.backgroundColor = "#F7D9C4";
 });
 
 askNameButton.addEventListener("mouseover", () => {
