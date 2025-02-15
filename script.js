@@ -16,7 +16,16 @@ button.onclick = function () {
   }
 }
 
+askNameButton.addEventListener("mouseout", () => {
+  askNameButton.color = "F7D9C4";
+});
+
+askNameButton.addEventListener("mouseover", () => {
+  askNameButton.color = "#E2C4AF";
+});
+
 askNameButton.onclick = function () {
   let name = prompt("What is your name?");
   header.textContent = `Hello, ${name}!`;
 }
+
