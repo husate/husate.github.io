@@ -17,11 +17,11 @@ button.onclick = function () {
 }
 
 askNameButton.addEventListener("mouseout", () => {
-  askNameButton.color = "F7D9C4";
+  askNameButton.background_color = "F7D9C4";
 });
 
 askNameButton.addEventListener("mouseover", () => {
-  askNameButton.color = "#E2C4AF";
+  askNameButton.background_color = "#E2C4AF";
 });
 
 askNameButton.onclick = function () {
